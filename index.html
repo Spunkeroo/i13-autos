@@ -482,7 +482,7 @@
       placeholder="Search any car make (e.g. Toyota, BMW, Rivian…)"
       oninput="filterMakes()"
       autocomplete="off"
-    >
+     onkeydown="if(event.key==='Enter'){filterMakes()}">
   </div>
 
   <!-- CAR MAKES GRID -->
